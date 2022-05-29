@@ -3,10 +3,27 @@ $dir = Read-Host -Prompt "Please input start dir where wav files are loaded"
 while(!(Test-Path $dir)){
     $dir = Read-Host -Prompt "Invalid input, try again"
 }
-## Main paths
+## Main paths, please edit with your locations
 $FXwrapperPath = "C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Tools\Audio\FaceFXWrapper"
-$FonixData = "C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Tools\Audio\FonixData.cdf"
+$FonixData = "FonixData.cdf"
 $FFmpeg = "C:\Program Files (x86)\Steam\SteamApps\common\Skyrim Special Edition\Tools\Audio\ffmpeg.exe"
+
+if(!(Test-Path $FXwrapperPath)){
+    Write-Host "Please download FXWrapper. Webpage opening:"
+    Start-Process 
+    Write-Host "Once extracted, paste your FXWrapper.exe location into the cmd"
+}
+
+if(!(Test-Path $FFmpeg)){
+    Write-Host "Please download ffmpeg.exe. Webpage opening:"
+    Start-Process 
+    Write-Host "Once extracted, paste your ffmpeg.exe location into the cmd"
+}
+
+if(!(Test-Path $FonixData)){
+    Write-Host "Fonix Data not found in folder. Please reinstall"
+    exit
+}
 
 $files = Get-ChildItem $dir
 
