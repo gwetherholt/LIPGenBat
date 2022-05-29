@@ -1,0 +1,7 @@
+game_id,voice_id,text,vocoder,out_path,pacing
+witcher,w_vesemir,"Oh, what happened?",hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
+witcher,w_vesemir,"Someone needs to tell the Jarl, about the attack.",hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
+witcher,w_vesemir,"Good, you don’t need to get mixed up in all this.",hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
+witcher,w_vesemir,Why don’t you bring some firewood?,hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
+witcher,w_vesemir,Would you mind gathering some pelts for us?,hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
+witcher,w_vesemir,"Ha, ha, don’t worry. I'll pay you.",hifi,C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data\Sound\Voice\FamilyHome.esp\ORIFatherVoice,1
